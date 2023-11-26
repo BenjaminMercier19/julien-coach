@@ -2226,6 +2226,7 @@ textarea.w-select {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
+  margin-top: 64px;
 }
 
 .w-layout-hflex {
@@ -3509,19 +3510,15 @@ figcaption {
 
 .waves-tile-testimonial-3 {
   grid-row-gap: 32px;
+  background-image: url('join-now-bg.png');
   background-color: var(--waves-library-dark-elevation);
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   flex-direction: column;
   align-items: flex-start;
   padding: 32px;
   display: flex;
-}
-
-.waves-tile-testimonial-3.samy-back {
-  background-image: url('https://assets-global.website-files.com/655c82de13ca57f06104ae75/655e567e627090449be42f82_WhatsApp%20Image%202023-11-22%20at%2020.28.22.jpeg'),
-    url('https://assets-global.website-files.com/655c82de13ca57f06104ae75/655e538bd62dbcbdc1b242ac_WhatsApp%20Image%202023-11-22%20at%2018.42.52.jpeg');
-  background-position: 0 0, 0 0;
-  background-size: cover, cover;
 }
 
 .waves-grid-testimonials-3 {
@@ -3652,7 +3649,10 @@ figcaption {
 
 .waves-tile-contact-3 {
   grid-row-gap: 16px;
+  background-image: url('join-now-bg.png');
   background-color: var(--waves-library-dark-elevation);
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   flex-flow: column;
   align-items: center;
@@ -3967,7 +3967,10 @@ figcaption {
 
 .waves-tile-features-2 {
   grid-row-gap: 16px;
+  background-image: url('join-now-bg.png');
   background-color: var(--waves-library-dark-elevation);
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
   border-radius: 12px;
   flex-direction: column;
   align-items: flex-start;
@@ -4374,6 +4377,12 @@ figcaption {
     grid-row-gap: 32px;
     text-align: center;
     flex-direction: column;
+  }
+
+  .w-layout-grid {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .waves-grid-testimonials-3 {
